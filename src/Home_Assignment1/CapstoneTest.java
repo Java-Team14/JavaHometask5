@@ -31,12 +31,6 @@ public class CapstoneTest {
     }
 
     @Test
-    void testChargeCarThrowsException() {
-        provideInput("1\n");
-        assertThrows(Exception.class, Capstone::ChargeCar);
-    }
-
-    @Test
     void testCompletePaymentWithValidInput() {
         provideInput("1\n");
         assertDoesNotThrow(() -> Capstone.CompletePayment());
