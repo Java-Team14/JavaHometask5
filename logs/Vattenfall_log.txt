@@ -1,0 +1,2 @@
+Dec 15, 2023 4:00:03 AM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Fri Dec 15 04:00:03 CET 2023 for station Vattenfall with energy source CNG
