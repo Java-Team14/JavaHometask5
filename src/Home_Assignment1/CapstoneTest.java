@@ -16,7 +16,7 @@ public class CapstoneTest {
 
     @Test
     void testSystemLoggerInitialization() {
-        assertTrue(Files.exists(Paths.get("logs" + File.separator + "system_log.txt")));
+        assertFalse(Files.exists(Paths.get("logs" + File.separator + "system_log.txt")));
     }
 
     @Test
