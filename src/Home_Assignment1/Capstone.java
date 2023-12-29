@@ -46,7 +46,6 @@ public class Capstone {
     	
     	
     	ChargingStations csarray[]={Ionity,FastEnd,Ladestation,Vattenfall};
-    //	System.out.println("array is "+csarray[1].Available_Source_of_Energy);
     	
         System.out.println("Welcome to the Charging App. Menu will be displayed for you to select options: \n");
         int selected_station=0;
@@ -56,11 +55,11 @@ public class Capstone {
         
         try{   										 //Handling Multiple Exceptions											
             int User_Choice=sc.nextInt();
-            if(User_Choice<0 || User_Choice>csarray.length-1)
+            if(User_Choice<1 || User_Choice>csarray.length)
             {
                 throw new InvalidUserInputException("Apologies. You have not selected available options. The system is selecting option 1 by default.");
             }
-            selected_station=User_Choice;
+            selected_station=User_Choice-1;
         } catch (InvalidUserInputException e) {        
             System.out.println("Number selected must be between 1 and 4. "+ e);
         }
@@ -80,7 +79,7 @@ public class Capstone {
         }
              
         System.out.println("You have "+csarray[selected_station].number_of_Free_stations_available+
-        " free charging slots available for charging with your selecte energy source "+selected_E_sourse);
+        " free charging slots available for charging with your selected energy source "+selected_E_sourse);
        
         
         try {								//chaining exception
@@ -148,21 +147,27 @@ public class Capstone {
 	        int Mode_of_Payment= sc.nextInt();
 	        
 	        switch (Mode_of_Payment) {
-	            case 1:
+	        	case 1:
+	        		System.out.println("Kindly pay the amount and take the receipt.");
+	                break;
+	                
+	        	 case 2:
+		                System.out.println("Kindly enter your UPI ID and press proceed to continue.");
+		                sc=new Scanner(System.in);
+		                String UPI_ID=sc.next();
+		                if(UPI_ID.length()>13)
+	                    {
+	                        throw new IOException("Wrong UPI ID is entered.");
+	                    }
+		                break;
+		                
+	        	case 3:
 	                System.out.println("Kindly insert your card and complete the transaction.");
 	                break;
 	                
-	            case 2:
-	                System.out.println("Kindly enter your UPI ID and press proceed to continue.");
-	                sc=new Scanner(System.in);
-	                String UPI_ID=sc.next();
-	                if(UPI_ID.length()>13)
-                    {
-                        throw new IOException("Wrong UPI ID is entered.");
-                    }
-	                break;
+	           
 	           default:
-	                System.out.println("Select payment method is invalid");
+	                System.out.println("Selected payment method is invalid");
 	        }
 	        
 }
@@ -179,4 +184,3 @@ public class Capstone {
 	    }
     
 }
-
