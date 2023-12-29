@@ -1,6 +1,0 @@
-Dec 15, 2023 3:13:59 AM Home_Assignment4.Capstone ChargeCar
-INFO: Charging completed at Fri Dec 15 03:13:59 CET 2023 for station FastEnd with energy source CNG
-Dec 15, 2023 3:58:17 AM Home_Assignment4.Capstone ChargeCar
-INFO: Charging completed at Fri Dec 15 03:58:17 CET 2023 for station FastEnd with energy source Diesel
-Dec 15, 2023 4:32:49 AM Home_Assignment4.Capstone ChargeCar
-INFO: Charging completed at Fri Dec 15 04:32:49 CET 2023 for station FastEnd with energy source CNG
