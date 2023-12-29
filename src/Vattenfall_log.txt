@@ -1,0 +1,18 @@
+Dec 14, 2023 9:59:05 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 21:59:05 CET 2023 for station Vattenfall with energy source Diesel
+Dec 14, 2023 10:30:02 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 22:30:02 CET 2023 for station Vattenfall with energy source Diesel
+Dec 14, 2023 10:36:25 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 22:36:25 CET 2023 for station Vattenfall with energy source petrol
+Dec 14, 2023 10:38:33 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 22:38:33 CET 2023 for station Vattenfall with energy source Petrol
+Dec 14, 2023 10:39:30 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 22:39:30 CET 2023 for station Vattenfall with energy source petrol
+Dec 14, 2023 10:43:32 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 22:43:32 CET 2023 for station Vattenfall with energy source petrol
+Dec 14, 2023 10:43:45 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 22:43:45 CET 2023 for station Vattenfall with energy source petrol
+Dec 14, 2023 10:44:08 PM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Thu Dec 14 22:44:08 CET 2023 for station Vattenfall with energy source Petrol
+Dec 15, 2023 2:46:33 AM Home_Assignment4.Capstone ChargeCar
+INFO: Charging completed at Fri Dec 15 02:46:33 CET 2023 for station Vattenfall with energy source Petrol
