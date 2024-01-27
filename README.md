@@ -1,9 +1,8 @@
-Java Hometask 5 - Unit Testing
+# Java Hometask5 - Unit Testing - Team 14
 
-Below is mentioned the topic covered by each team Member:
-
-Nitika Deswal : Unit Test Cases for Java Hometask1
-
-Anjali Khanduri : Unit Test Cases for Java Hometask2
-
-Madhukar Devendrappa : Unit Test Cases for Java Hometask4
+## Authors
+| | Author  | Matriculation Number | Course | Contribution |
+| - | ---------- | -------------------- | ------ | -------------- |
+| 1 | Anjali Khanduri | 7219034 | MDT | Unit Test Cases for Java Hometask2 |
+| 2 | Nitika Deswal | 7218799 | MDT | Unit Test Cases for Java Hometask1 |
+| 3 | Madhukar Devendrappa  | 7219639 | ESE | Unit Test Cases for Java Hometask4 |
